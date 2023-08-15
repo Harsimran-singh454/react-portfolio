@@ -1,0 +1,22 @@
+{
+    "work": [
+    {
+        "id":1,
+        "title": "Full Stack Web Developer",
+        "company": "Bankes Holdings Inc",
+        "desc":"Building and maintaining websites (Technologies used - Laravel-PHP, HTML, CSS, JQuery, JS, REST APIs, MySQL, Shopify, Adobe Illustrator, Figma. Developing websites with CRUD functionality, notifying users via emails, fetching data from APIs, creating custom features. Used JIRA for collaboration among team members for better team work.", 
+        "location":"Etobicoke, Canada",       
+        "start_date": "January, 2023",
+        "end_date": "August, 2023"
+    },
+    {
+        "id":2,
+        "title": "Technical Content Writer",
+        "company": "MSP - The Knowledge Academy",
+        "desc":"Created learning material including lab guides for many highly technical courses Including Laravel, React.js, Dart Programming, Unity, Photoshop, Java Spring, InDesign, Adobe Illustrator, MS Office, and many more.", 
+        "location":"Jalandhar, India",       
+        "start_date": "November, 2020",
+        "end_date": "October, 2021"
+    }
+    ]
+}

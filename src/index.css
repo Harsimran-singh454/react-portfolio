@@ -1,0 +1,313 @@
+*{
+  font-family: 'Chivo', sans-serif;
+}
+
+html, body{
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+.white-bg{
+  background-color: white;
+  border-radius: 12px;
+  padding: 50px;
+  margin: 5px;
+}
+
+#bg-img{
+  z-index: -10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-image: url('background.jpeg');
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+}
+
+#header, footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+nav img{
+  position: absolute;
+  display: none;
+  width: 44px;
+  height: 44px;
+  z-index: 10;
+}
+
+
+#header h2{
+  font-size: 55px;
+  margin-bottom: 2px;
+}
+
+#header p{
+  font-style: italic;
+  opacity: 0.7;
+}
+
+#header .menu{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 20px;
+  font-size: 25px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+#header a:hover{
+  background-color: black;
+  color:white
+}
+
+
+
+
+
+
+
+
+
+
+.homePage{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 1em auto;
+}
+
+
+
+.intro{
+  width: 40%;
+}
+
+.aboutmecontainer {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.aboutmecontainer h3{
+  font-size: 25px;
+}
+
+
+.contactme {
+  border: 1px solid black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgba(0, 208, 255, 0.192);
+  margin: 10px auto;
+}
+
+.contactme h3{
+  margin: 0px;
+  background-color: rgba(0, 208, 255, 0.192);
+  border-radius: 15px 15px 0px 0px;
+  padding: 5px 0px;
+}
+
+.contactme p{
+  font-weight: 100;
+}
+
+.skills{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+ }
+
+.skills img{
+  height: 100%;
+  width: 18%;
+}
+
+
+
+
+h2{
+  text-decoration: underline;
+}
+
+
+
+main h1{
+  text-align: center;
+  /* width: 100%; */
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+
+
+.propsView > div{
+  display: flex;
+  flex-direction: row;
+  /* width: 80%; */
+  margin: 10px auto;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.propsView > div div{
+  max-width: 300px;
+  height: fit-content;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.light{
+  opacity: 0.6;
+  font-size: smaller;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+
+
+
+footer{
+  /* position: absolute; */
+  left: 0px;
+  bottom: 0px;
+  background-color: black;
+  color: white;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul li{
+  padding: 10px;
+}
+
+footer ul li a{
+  color: white;
+}
+
+footer hr{
+  width: 80%;
+  margin: 15px auto;
+}
+
+footer a:hover{
+  background-color: white;
+  color: black;
+}
+
+.show{
+  display: flex;
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+  #header h2{
+    font-size: 55px;
+    margin-bottom: 2px;
+  }
+
+  nav img{
+    margin: 10px auto;
+    left: 50%;
+    display: block;
+    z-index: 6;
+  }
+
+  
+  #header p{
+    font-style: italic;
+    opacity: 0.7;
+  }
+  
+  #header .menu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+    display: none;
+    z-index: 5;
+    background-color: black;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0px;
+    font-size: 25px;
+  }
+
+  #header ul li {
+
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.3s;
+  }
+  
+  #header a:hover{
+    background-color: white;
+    color:black
+  }
+
+
+
+
+  .homePage {
+    flex-direction: column;
+  }
+
+  .homePage div{
+    width: 70%;
+    margin: 10px auto;
+  }
+
+}

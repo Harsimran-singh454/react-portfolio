@@ -1,0 +1,20 @@
+{
+    "education": [
+      {
+        "id":1,
+        "institution": "Humber College",
+        "location": "Etobicoke, Canada", 
+        "program":"Web Development - Ontario Graduate Certificate ",       
+        "start_date": "January, 2023",
+        "end_date": "December, 2023"
+      },
+      {
+        "id":2,
+        "institution": "G.N.D.U College",
+        "location": "Jalandhar, India", 
+        "program":"Bachelors in Computer Applications",       
+        "start_date": "July, 2017",
+        "end_date": "May, 2020"
+      }
+    ]
+  }
