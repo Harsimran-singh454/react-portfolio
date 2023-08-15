@@ -3,20 +3,20 @@ window.onload = () =>{
     let ham = document.getElementById("ham")
 
 
-    if(window.screen.availWidth < 700){
+    if(window.screen.availWidth < 786){
         menu.classList.remove('menu-desktop');
         menu.classList.add('menu-mobile-close');
-    } else if(window.screen.availWidth > 700){
+    } else if(window.screen.availWidth > 786){
         menu.classList.remove('menu-mobile-close');
         menu.classList.remove('menu-mobile-open');
         menu.classList.add('menu-desktop');
     }
 
     window.addEventListener('resize', function(event){
-        if(this.screen.availWidth < 700){
+        if(this.screen.availWidth < 786){
             menu.classList.remove('menu-desktop');
             menu.classList.add('menu-mobile-close');
-        } else if(this.screen.availWidth > 700){
+        } else if(this.screen.availWidth > 786){
             menu.classList.remove('menu-mobile-close');
             menu.classList.remove('menu-mobile-open');
             menu.classList.add('menu-desktop');
