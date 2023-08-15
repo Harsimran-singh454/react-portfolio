@@ -3,6 +3,7 @@
         {
             "id":1,
             "title": "VolleyBall General Rotation Rules",
+            "scrcht":"volleyball.png",
             "desc": "This Web app gives a visual representation of how and at what moment a team in a volleyball match", 
             "languages":"HTML, CSS, Vanilla JavaScript",       
             "github": "https://github.com/Harsimran-singh454/vollyball-rotation-project"
@@ -10,6 +11,7 @@
         {
             "id":5,
             "title": "Financial Services Database",
+            "scrcht":"database.png",
             "desc": "This project demonstartes database desgin and my SQL skills by using them to create a Financial services website database.", 
             "languages":"MySQL, phpmyadmin",       
             "github": "https://github.com/Harsimran-singh454/SQL-FinancialServices"
@@ -17,6 +19,7 @@
         {
             "id":2,
             "title": "Vending Machine Animations",
+            "scrcht":"vendingmachine.png",
             "desc": "This project was created for utilizing the animation skills gained during the program.", 
             "languages":"HTML, CSS, Vanilla JavaScript",       
             "github": "https://github.com/Harsimran-singh454/simple-vending-machine"
@@ -24,6 +27,7 @@
         {
             "id":3,
             "title": "Contacts Manager - Laravel",
+            "scrcht":"contactsapp.png",
             "desc": "This project was created to demonstrate my laravel skills to create a web app with fully functional CRUD.", 
             "languages":"JavaScript, Pug, node.js, express.js",       
             "github": "https://github.com/Harsimran-singh454/laravel-contacts-cms"
@@ -31,6 +35,7 @@
         {
             "id":4,
             "title": "Weather API Project",
+            "scrcht":"weatherapi.png",
             "desc": "This project was created to experiment the knowledge gained about fetching data from APIs and injecting it into the DOM.", 
             "languages":"HTML, CSS, Vanilla JavaScript, REST APIs",       
             "github": "https://github.com/Harsimran-singh454/weather-api-jsProject"

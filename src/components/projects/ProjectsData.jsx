@@ -17,6 +17,7 @@ return (
             <Projects
                 key={projectsArray.id}
                 title={projectsArray.title}
+                scrcht={projectsArray.scrcht}
                 languages={projectsArray.languages}
                 desc={projectsArray.desc}
                 github={projectsArray.github}
