@@ -48,6 +48,7 @@ nav img{
   width: 44px;
   height: 44px;
   z-index: 10;
+  left: 0px;
 }
 
 
@@ -253,7 +254,8 @@ footer a:hover{
 
   nav img{
     margin: 10px auto;
-    left: 50%;
+    left: 0%;
+    margin-top: 17px;
     display: block;
     z-index: 6;
   }
@@ -273,13 +275,14 @@ footer a:hover{
     z-index: 5;
     background-color: black;
     list-style: none;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
     flex-wrap: nowrap;
     margin: 0px;
     font-size: 25px;
+    padding: 0px;
   }
 
   #header .menu-mobile-open{
@@ -291,12 +294,13 @@ footer a:hover{
     z-index: 5;
     background-color: black;
     list-style: none;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
     flex-wrap: nowrap;
     margin: 0px;
+    padding: 0px;
     font-size: 25px;
   }
 

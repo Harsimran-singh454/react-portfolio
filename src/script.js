@@ -1,7 +1,7 @@
 window.onload = () =>{
     let menu = document.getElementById("menu");
     let ham = document.getElementById("ham")
-
+    menu.classList.add('menu-mobile-close');
 
     if(window.screen.availWidth < 786){
         menu.classList.remove('menu-desktop');
